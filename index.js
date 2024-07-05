@@ -16,8 +16,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 mongoose
   .connect(
-    "mongodb+srv://divya:IXeZqd2bJJ3uu2LY@cluster0.ya0kbsg.mongodb.net/db"
-  )
+    "pastr your mongodb link here")
   .then(() => {
     console.log("MongoDB connected successfully");
   })
